@@ -1,0 +1,32 @@
+:root {
+    --primary-text-color: #3C3C3C;
+    --text-color: #5E5955;
+    --primary-accent-color: #0071E3;
+    --primary-bg-color: #FBFBFB;
+
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.page-header {
+    display: flex;
+        padding-top: 30px;
+}
+
+.page-header__button {
+        font-weight: 600;
+            font-size: 12.144px;
+            line-height: 19px;
+            text-align: center;
+            background-color: #0071E3;
+            color: #FFFFFF;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 9%;
+            margin-left: 67px;
+}
